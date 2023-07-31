@@ -4,26 +4,67 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding-top: 3em;
+    background-image: url("https://res.cloudinary.com/tecnologi-zifrikc/image/upload/v1672460937/Testalbun/school_rooftop_by_arsenixc_dakmnys_ob3zbo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 
 .container{
-    background-color: burlywood;
     width: 70%;
     border: 5px solid rgb(170, 164, 16);
     color: rgb(10, 18, 1);
     padding-left: 1em;
     margin: 0 auto;
 }
+.container:hover{
+    border-color: aquamarine;
+}
 .Encabezado{
-    background-color: burlywood;
     color: blue;
     font-size: 100%;
 }
-.container2{
-    background-color: burlywood;
-    width: 84.5%;
-    border: 5px solid rgb(170, 164, 16);
-    color: rgb(10, 18, 1);
-    padding-left: 1em;
-    margin: auto;
+#cabecera{
+    padding: 2em;
+}
+.tabla{
+    padding: 3%;
+    margin: 0%;
+}
+.btn{
+    background-color: rgb(127, 133, 255);
+    height: 20px;
+    width: 100px;
+    border-radius: 15px;
+    z-index: -1.5;
+}
+.btn:hover{
+    border-color: blue;
+    background-color: rgb(254, 229, 7);
+}
+.section{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid rgb(221, 236, 5);
+    background-color: rgba(244, 244, 244, 0);
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+/* Tu CSS existente... */
+
+.tabla2,
+.tabla3 {
+  display: inline-block; /* Alinea las tablas en línea (horizontalmente) */
+  margin-right: 40px;
+  padding: 3%;
+  margin: 0%;
+  position: relative;
+  align-items: auto;
+}
+
+.tabla-container {
+  white-space: nowrap; /* Evita que las tablas se dividan en varias líneas */
 }
