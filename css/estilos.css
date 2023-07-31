@@ -7,19 +7,23 @@ body{
 }
 
 .container{
-    
+    background-color: burlywood;
     width: 70%;
-    border: 5px solid violet;
-    color: chartreuse;
+    border: 5px solid rgb(170, 164, 16);
+    color: rgb(10, 18, 1);
     padding-left: 1em;
     margin: 0 auto;
 }
 .Encabezado{
+    background-color: burlywood;
     color: blue;
-    font-size: 90%;
+    font-size: 100%;
 }
-#cabecera{
-    padding: 2em;
-    background-color: antiquewhite;
-
+.container2{
+    background-color: burlywood;
+    width: 84.5%;
+    border: 5px solid rgb(170, 164, 16);
+    color: rgb(10, 18, 1);
+    padding-left: 1em;
+    margin: auto;
 }
