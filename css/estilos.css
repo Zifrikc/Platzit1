@@ -4,15 +4,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding-top: 3em;
+    background-image: url("https://res.cloudinary.com/tecnologi-zifrikc/image/upload/v1672460937/Testalbun/school_rooftop_by_arsenixc_dakmnys_ob3zbo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
-    
     width: 70%;
     border: 5px solid violet;
     color: chartreuse;
     padding-left: 1em;
     margin: 0 auto;
+}
+.container:hover{
+    border-color: aquamarine;
 }
 .Encabezado{
     color: blue;
@@ -22,4 +27,44 @@ body{
     padding: 2em;
     background-color: antiquewhite;
 
+}
+.tabla{
+    padding: 3%;
+    margin: 0%;
+}
+.btn{
+    background-color: aquamarine;
+    height: 20px;
+    width: 100px;
+    border-radius: 15px;
+}
+.btn:hover{
+    border-color: blue;
+    background-color: rgb(254, 229, 7);
+}
+.section{
+
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid rgb(221, 236, 5);
+    background-color: rgba(244, 244, 244, 0);
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+/* Tu CSS existente... */
+
+.tabla2,
+.tabla3 {
+  display: inline-block; /* Alinea las tablas en línea (horizontalmente) */
+  margin-right: 40px;
+  padding: 3%;
+  margin: 0%;
+  position: relative;
+  align-items: auto;
+}
+
+.tabla-container {
+  white-space: nowrap; /* Evita que las tablas se dividan en varias líneas */
 }
